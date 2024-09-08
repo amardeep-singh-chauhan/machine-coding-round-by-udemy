@@ -15,6 +15,7 @@ function StarRating(props) {
           className={id < rating ? 'rated-star' : 'star'}
         />
       })}
+      <hr />
     </div>
   )
 }

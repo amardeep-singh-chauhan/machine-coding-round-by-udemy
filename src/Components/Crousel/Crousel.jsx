@@ -65,6 +65,7 @@ function Crousel() {
                 <button onClick={prev}>Prev</button>
                 <button onClick={next}>Next</button>
             </div>
+            <hr />
         </div>
     )
 }

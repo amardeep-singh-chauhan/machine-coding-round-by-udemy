@@ -58,6 +58,7 @@ function Stopwatch() {
                     {laps.map((item) => <li>{item}</li>)}
                 </ul>
             </div>}
+            <hr />
         </div>
     )
 }
