@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Crousel from './Components/Crousel/Crousel';
+import Search from './Components/Search/Search';
+import SortedTable from './Components/SortedTable/SortedTable';
+import StarRating from './Components/StarRating/StarRating';
+import Stopwatch from './Components/Stopwatch/Stopwatch';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StarRating limit={5} rating={2}/>
+      <hr />
+      <Search />
+      <hr />
+      <Crousel />
+      <hr />
+      <SortedTable />
+      <hr />
+      <Stopwatch />
+      <hr />
     </div>
   );
 }
